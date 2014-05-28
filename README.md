@@ -6,12 +6,12 @@ This is a series is aimed at getting you up and running fast. Develop your first
 Who should read these?
 ======================
 
-This series is aimed at an individual that would like to go from Idea to Concept in under 24 hours, with no previous development experiance. In these books we will leverage EnyoJS' core, layout, and onyx libraries. These libraries provide functionality and look and feel, allowing us to rapidly accelerate development.
+This series is aimed at an individual that would like to go from Idea to Concept in under 24 hours, with no previous development experience. In these books we will leverage EnyoJS' core, layout, and onyx libraries. These libraries provide functionality and look and feel, allowing us to rapidly accelerate development.
 
 What will I learn?
 ==================
 
-In this series we will build a Local Search application, that allows us to find resturants, gas stations, and other near by things. Sounds like a big task? Don't worry, with EnyoJS you will be and running like a pro in no time!
+In this series we will build a Local Search application, that allows us to find restaurants, gas stations, and other near by things. Sounds like a big task? Don't worry, with EnyoJS you will be and running like a pro in no time!
 
 Topics include, but NOT limited;
 ================================
@@ -21,9 +21,19 @@ Topics include, but NOT limited;
 * general EnyoJS concepts and theory
 * data binding
 * eventing
-* templating
+* templates
 
 Covers Latest Version!
 ======================
 
 Written to cover 2.4.x!
+
+Contents
+========
+
+* Hour 1 - Setting up our environment, learning some terms
+* Hour 2 - Let's build somethings, scaffold our chrome
+* Hour 3 - Producing our first view, we may need to break things down
+* Hour 4 - Breaking components down into reusable parts
+* Hour 5 - Learning to Bind
+* Hour 6 - 
