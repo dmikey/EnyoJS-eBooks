@@ -1,4 +1,6 @@
 The First Hour
+
+
 Setting up your environment
 =====================================
 
@@ -17,14 +19,14 @@ The concept of the ViewController
 
 The idea of a View Controller, is that we abstract the graphical representation of the application, away from the a data representation of those graphics.
 
-You can think about the View Controller as a sandwich artist. They assemble the ready made toppings, into a complete sandwich for you to use, the person assembling the sandwich doesn't need to know about how all of the toppings were prepared, they are available to assemble into a sandwich. The artist is only concerned with making the sandwich fit the toppings, and putting it into a nice looking wrapper.
+You can think about the View Controller as a sandwich artist. They assemble the ready made toppings, into a complete sandwich for you to use, the person assembling the sandwich does not need to know about how all of the toppings were prepared, they are available to assemble into a sandwich. The artist is only concerned with making the sandwich fit the toppings, and putting it into a nice looking wrapper.
 
 The concept of the View
 =======================
 
-The idea of the View, is that, it is an abstracted representation of underlying data in a graphical form. It may contain tool-bars, buttons, repeaters, lists, and other widgets like; sliders, zoom controls, maps, input boxes. These are the bits that make up the look and feel of the application.
+The idea of the View, is that, it is an abstracted representation of underlying data in a graphical form. It may contain tool-bars, buttons, repeaters, lists, and other widgets like; sliders, zoom controls, maps, and input boxes. These are the bits that make up the look and feel of the application.
 
-This view is essentially the wax paper wrap that is going to surround the sandwich when it has been built. The wrap doesn't really know what kind of sandwich it will hold. We have a loose concept that the sandwich needs to be within the dimensions of the wrap for the two to work together. This is similar in the way we abstract interactions between the View and the ViewController.
+This view is essentially the wax paper wrap that is going to surround the sandwich when it has been built. The wrap does not really know what kind of sandwich it will hold. We have a loose concept that the sandwich needs to be within the dimensions of the wrap for the two to work together. This is similar in the way we abstract interactions between the View and the ViewController.
 
 The concept of the Controller
 =============================
@@ -36,7 +38,7 @@ We can use these to control other aspects of our applications that do not necess
 The concept of  the Model
 =========================
 
-The model is a representation of data. You may be thinking right now, that representation could be overkill for the dream app you have in mind. But models can be very flexible and aid the developer is dynamically driving the application without much programmed interaction.
+The model is a representation of data. You may be thinking right now, that representation could be overkill for the dream application you have in mind. But models can be very flexible and aid the developer is dynamically driving the application without much programmed interaction.
 
 For the beginner, grasping the concept of data binding can alleviate the frustration and worry of knowing deep JavaScript.
 
