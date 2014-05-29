@@ -6,12 +6,12 @@ Setting up your environment
 
 There are only a few tools that you will need through out this quick journey! Here they are:
 
-* Text Editor of preferred flavor (if you are brand new to development, I recommend [brackets](http://brackets.io/), it is free and for windows, linux and osx).
+* Text Editor of preferred flavor (if you are brand new to development, I recommend [brackets](http://brackets.io/), it is free and for Windows, Linux and OSX).
 * For the duration of this book series, Chrome developer tools will be referenced. I recommend downloading the latest version of Chrome browser for your OS.
-* The "Tools" download appendix from this repository. These supplemental files will be aid you in preparing to use EnyoJS on the web. My custom bootplate provides production ready minified versions of EnyoJS.
+* The "Tools" download appendix from this repository. These supplemental files will be aid you in preparing to use Enyo on the web. My custom bootplate provides production ready minified versions of Enyo.
 * 24 hours!
 
-For the remainder of this hour, we will cover some concepts, and theory about using EnyoJS. In the next hour we will rapidly move into assembling our application. Don't worry about remembering all of these, we will review them when we encounter using them.
+For the remainder of this hour, we will cover some concepts, and theory about using Enyo. In the next hour we will rapidly move into assembling our application. Don't worry about remembering all of these, we will review them when we encounter using them.
 
 
 The concept of the ViewController
@@ -52,20 +52,20 @@ This may sound boring, but later during exercises we will see how we can use a c
 The component, our building block
 =================================
 
-The component is our sole building block in EnyoJS. Everything is derived from a component, even most of the EnyoJS controls - are them self EnyoJS components.
+The component is our sole building block in EnyoJS. Everything is derived from a component, even most of the Enyo controls - are them self Enyo components.
 
-In EnyoJS we use components, to not only build our app, but to also build other components. EnyoJS is like a brick building set, components can be nested inside each other, creating new components, or combining components together in a layout.
+In Enyo we use components, to not only build our application, but to also build other components. Enyo is like a brick building set, components can be nested inside each other, creating new components, or combining components together in a layout.
 
 What is a kind?
 ===============
 
-There is a general term when it comes to EnyoJS. The kind. If you are a classical programmer, you can think of a kind directly as a class. The switch is general keyword reservation semantics.
+There is a general term when it comes to Enyo. The kind. If you are a classical programmer, you can think of a kind directly as a class. The switch is general keyword reservation semantics.
 
-Kinds represent the definitions of objects we want to create. A button is a kind, so an image. We can create our own kinds, or using EnyoJS' inheritance, we can borrow from another kind.
+Kinds represent the definitions of objects we want to create. A button is a kind, so an image. We can create our own kinds, or using Enyo's inheritance, we can borrow from another kind.
 
 Why enyo.kind is important
 ==========================
 
-EnyoJS uses a major recurring method call, enyo.kind. It's one of the most important calls in the framework. This method is known as a constructor factory.
+Enyo uses a major recurring method call, enyo.kind. It's one of the most important calls in the framework. This method is known as a constructor factory.
 
-What this means is that when we create a kind definition, EnyoJS does not actually create an object that occupies memory. We can feel free to create (with in reason) a multitude of different kinds. While these definitions do create new objects, they are not fully recognized instances.
+What this means is that when we create a kind definition, Enyo does not actually create an object that occupies memory. We can feel free to create (with in reason) a multitude of different kinds. While these definitions do create new objects, they are not fully recognized instances.
